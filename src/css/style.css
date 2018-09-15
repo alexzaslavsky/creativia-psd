@@ -127,6 +127,10 @@ a:hover::before, a:hover::after {
 	background: rgba(0, 0, 0, 1);
 }
 
+.btn-wrapper .btn-highlight {
+	background-color: #ff0036;
+}
+
 .btn:hover {
 	background-color: #ff0036;
 }
