@@ -82,8 +82,142 @@
 
             </div>
         </div>
+
+        <section class="second">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="about">
+                            <h2>about <span>creativia</span></h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="about-desc">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur <span>adipiscing elit.</span>
+                                Integer sed magna vel velit dignissim luctus eu in urna.
+                                Dapibus egestas turpis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="image-desc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae cupiditate delectus
+                                deserunt ducimus eaque earum et expedita fuga iste molestiae nesciunt optio pariatur,
+                                praesentium provident, quasi velit vero vitae?</p>
+                            <div class="info">
+                                <div class="info-wrapper">
+                                    <div class="info-block">
+                                        <div id="first" class="plus-minus-box">
+                                            <div class="plus-minus-circle">
+                                                <div class="plus-minus-hor"></div>
+                                                <div id="first-line" class="plus-minus-ver"></div>
+                                            </div>
+                                        </div>
+                                        <p>Who is creativia?</p>
+                                    </div>
+                                    <div id="first-info-sub" class="sub-info-block">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis
+                                            officia ratione. Assumenda culpa, deserunt, dolorum ducimus ex expedita
+                                            fugit in, minima minus natus nobis quaerat suscipit? Debitis illum,
+                                            obcaecati?</p>
+                                    </div>
+                                </div>
+
+                                <div class="info-wrapper">
+                                    <div class="info-block">
+                                        <div id="second" class="plus-minus-box">
+                                            <div class="plus-minus-circle">
+                                                <div class="plus-minus-hor"></div>
+                                                <div id="second-line" class="plus-minus-ver"></div>
+                                            </div>
+                                        </div>
+                                        <p>Experience</p>
+                                    </div>
+                                    <div id="second-info-sub" class="sub-info-block">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis
+                                            officia ratione. Assumenda culpa, deserunt, dolorum ducimus ex expedita
+                                            fugit in, minima minus natus nobis quaerat suscipit? Debitis illum,
+                                            obcaecati?</p>
+                                    </div>
+                                </div>
+
+                                <div class="info-wrapper">
+                                    <div class="info-block">
+                                        <div id="third" class="plus-minus-box">
+                                            <div class="plus-minus-circle">
+                                                <div class="plus-minus-hor"></div>
+                                                <div id="third-line" class="plus-minus-ver"></div>
+                                            </div>
+                                        </div>
+                                        <p>Learn more</p>
+                                    </div>
+                                    <div id="third-info-sub" class="sub-info-block">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis
+                                            officia ratione. Assumenda culpa, deserunt, dolorum ducimus ex expedita
+                                            fugit in, minima minus natus nobis quaerat suscipit? Debitis illum,
+                                            obcaecati?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </section>
 </header>
+
+<script type="text/javascript">
+    var a, b, c;
+    a = 2;
+    b = 2;
+    c = 2;
+    document.getElementById('first').onclick = function() {
+        a++;
+        if (a % 2 == 1) {
+            document.getElementById('first-line').style.borderWidth = 0;
+            document.getElementById('first-info-sub').style.height = 'auto';
+        }
+        else {
+            document.getElementById('first-line').style.borderWidth = 2 + 'px';
+            document.getElementById('first-info-sub').style.height = 0;
+        }
+    }
+    document.getElementById('second').onclick = function() {
+        b++;
+        if (b % 2 == 1) {
+            document.getElementById('second-line').style.borderWidth = 0;
+            document.getElementById('second-info-sub').style.height = 'auto';
+        }
+        else {
+            document.getElementById('second-line').style.borderWidth = 2 + 'px';
+            document.getElementById('second-info-sub').style.height = 0;
+        }
+    }
+    document.getElementById('third').onclick = function() {
+        c++;
+        if (c % 2 == 1) {
+            document.getElementById('third-line').style.borderWidth = 0;
+            document.getElementById('third-info-sub').style.height = 'auto';
+        }
+        else {
+            document.getElementById('third-line').style.borderWidth = 2 + 'px';
+            document.getElementById('third-info-sub').style.height = 0;
+        }
+    }
+</script>
 
 </body>
 </html>
