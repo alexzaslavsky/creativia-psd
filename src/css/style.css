@@ -1,0 +1,132 @@
+header {
+	background: url('../img/first-bg.jpg') no-repeat center top;
+	background-size: cover;
+	height: 100vh;
+}
+
+.sub-section {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.black {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sub-section .menu a {
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+
+.logo {
+	width: 100%;
+	height: 67px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.logo a {
+	font-family: 'Dancing Script', cursive;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	font-size: 40px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu {
+	height: 67px;
+}
+
+.menu ul {
+	display: flex;
+	height: 100%;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+.menu li {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.menu a {
+	display: flex;
+	height: 100%;
+	position: relative;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+a::before, a::after {
+	content: '';
+	display: block;
+}
+
+a:hover::before, a:hover::after {
+	border: 1px solid #ff0036;
+}
+
+.main-section {
+	height: calc(100vh - 67px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+.mid-header {
+	display: flex;
+	justify-content: center;
+}
+
+.mid-header h1 {
+	font-size: 50px;
+}
+
+.mid-header span {
+	font-family: 'Dancing Script', cursive;
+	font-size: 300%;
+	color: #ff0036;
+}
+
+.main-section .main-text {
+	font-style: italic;
+	margin: 50px;
+}
+
+.btn-wrapper {
+	text-transform: uppercase;
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-wrapper .btn {
+	width: 100%;
+	font-size: 30px;
+	color: #fff;
+	background: rgba(0, 0, 0, 1);
+}
+
+.btn:hover {
+	background-color: #ff0036;
+}
