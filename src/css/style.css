@@ -226,10 +226,16 @@ a:hover::before, a:hover::after {
 	transform: translate(-50%, -50%) rotateZ(90deg);
 }
 
+.plus-minus-ver-hidden .plus-minus-ver {
+	border: 0;
+}
+
 .info-block p {
 	font-size: 20px;
 	margin: 0 10px;
 }
+
+
 
 .sub-info-block {
 	position: relative;
@@ -241,6 +247,36 @@ a:hover::before, a:hover::after {
 	border-bottom: 1px solid #e7e7e7;
 }
 
+.sub-info-block-showed .sub-info-block {
+	height: auto;
+}
+
 .sub-info-block p {
 	padding: 20px;
+}
+
+.hexagon {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.image-three {
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 25px;
+}
+
+.image-two {
+	position: absolute;
+	z-index: 2;
+	right: 0;
+	top: 25px;
+}
+
+.image-one {
+	z-index: 3;
+
 }
