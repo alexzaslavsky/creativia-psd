@@ -6,8 +6,6 @@ window.onload = function() {
         blocks[i].onclick = popMenu;
     }
 
-    var opened = false;
-
     function popMenu() {
         for (var i = 0; i < blocks.length; i++) {
 
