@@ -75,12 +75,12 @@ header {
 	justify-content: space-between;
 }
 
-a::before, a::after {
+.menu a::before, a::after {
 	content: '';
 	display: block;
 }
 
-a:hover::before, a:hover::after {
+.menu a:hover::before, .menu a:hover::after {
 	border: 1px solid #ff0036;
 }
 
@@ -347,5 +347,126 @@ a:hover::before, a:hover::after {
 .four-icons-wrapper p {
 	font-size: 90%;
 	text-align: center;
+}
+
+.portfolio {
+	width: 100%;
+	height: 100vh;
+	background-color: #262626;
+}
+
+.portfolio-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.portfolio-header h3 {
+	font-size: 40px;
+	margin: 30px;
+	color: #fff;
+}
+
+.portfolio-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.portfolio-links a {
+	font-size: 20px;
+	color: #a4a4a4;
+	margin: 0px 20px;
+	text-decoration: none;
+}
+
+.portfolio a:hover {
+	color: #ff0036;
+}
+
+.portfolio-illustration {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.portfolio .money {
+	width: 30%;
+	height: 300px;
+	background-color: #3782aa;
+}
+
+.portfolio .bank {
+	width: 20%;
+	height: 300px;
+	background-color: #f39943;
+}
+
+.portfolio .flower {
+	width: 30%;
+	height: 300px;
+	background-color: #ef5d88;
+}
+
+.portfolio .bankcard {
+	width: 20%;
+	height: 300px;
+	background-color: #f6f0e0;
+}
+
+.portfolio .calc {
+	width: 20%;
+	height: 300px;
+	background-color: #56cc82;
+}
+
+.portfolio .currency {
+	width: 30%;
+	height: 300px;
+	background-color: #dc5def;
+}
+
+.portfolio .wallet {
+	width: 20%;
+	height: 300px;
+	background-color: #24b0c9;
+}
+
+.portfolio .check {
+	width: 30%;
+	height: 300px;
+	background-color: #fa8562;
+}
+
+.black-illustration {
+	color: rgba(255, 255, 255, 0);
+	display: flex;
+	justify-content: center;
+	flex-flow: column nowrap;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+.black-illustration:hover {
+	color: rgba(255, 255, 255, 0.9);
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.black-illustration p {
+	margin: 0;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.black-illustration .plus {
+	font-size: 60px;
 }
 
