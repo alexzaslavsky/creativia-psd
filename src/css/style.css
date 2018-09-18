@@ -137,7 +137,8 @@ header {
 }
 
 .second {
-	height: 100vh;
+	min-height: 100vh;
+	height: auto;
 	color: #505050;
 }
 
@@ -378,7 +379,7 @@ header {
 .portfolio-links a {
 	font-size: 20px;
 	color: #a4a4a4;
-	margin: 0px 20px;
+	margin: 0 20px;
 	text-decoration: none;
 }
 
