@@ -133,6 +133,11 @@ header {
 	background-color: #ff0036;
 }
 
+.btn a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
 .btn:hover {
 	background-color: #ff0036;
 }
