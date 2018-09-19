@@ -1,3 +1,4 @@
+/*-------------------------HEADER-------------------------*/
 header {
 	background: url('../img/first-bg.jpg') no-repeat center top;
 	background-size: cover;
@@ -135,6 +136,8 @@ header {
 .btn:hover {
 	background-color: #ff0036;
 }
+
+/*-------------------------ABOUT-------------------------*/
 
 .second {
 	min-height: 100vh;
@@ -350,6 +353,8 @@ header {
 	text-align: center;
 }
 
+/*-------------------------PORTFOLIO-------------------------*/
+
 .portfolio {
 	width: 100%;
 	height: 100vh;
@@ -471,3 +476,151 @@ header {
 	font-size: 60px;
 }
 
+/*-------------------------FEATURES-------------------------*/
+
+.features {
+	width: 100%;
+	height: 100vh;
+}
+
+.features .break-hexagon-part-3 {
+	background-color: #ff0036;
+}
+
+.features .horizontal {
+	border: 1px solid #ff0036;
+}
+
+.features-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.features-header h2 {
+	margin: 30px;
+	font-size: 50px;
+}
+
+.features-header span {
+	color: #ff0036;
+}
+
+.features-description {
+	margin-bottom: 100px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.features-description span {
+	color: #ff0036;
+}
+
+.features-links-left,
+.features-links-right {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 0;
+
+}
+
+.feature-link-wrapper {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 60px;
+	border: 1px solid #e7e7e7;
+	margin: 20px 0;
+	padding: 0 10px;
+}
+
+.features-links-left .feature-link-wrapper 	{
+	justify-content: flex-end;
+
+}
+
+.features-links-right .feature-link-wrapper {
+	justify-content: flex-start;
+}
+
+.features-links-left a,
+.features-links-right a {
+	margin: 0 10px;
+	font-size: 18px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #000000;
+	text-transform: uppercase;
+
+}
+
+.feature-hexagons {
+	display: block;
+	position: relative;
+	width: 60px;
+	height: 60px;
+}
+
+.feature-hexagons img {
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.feature-link-wrapper:hover {
+	background-color: #ff0036;
+}
+
+.feature-link-wrapper:hover a {
+	color: #ffffff;
+}
+
+.feature-link-wrapper:hover .feature-hidden-image {
+	z-index: 0;
+}
+
+.tablet-wrapper {
+	position: relative;
+	padding: 40px 25px;
+	background: #e7e7e7;
+	border-radius: 30px;
+	margin-bottom: 50px;
+}
+
+.tablet {
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 100%;
+	height: 400px;
+	background: url('../img/first-bg.jpg') no-repeat center top;
+	background-size: cover;
+}
+
+.tablet-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	background: #e7e7e7;
+	width: 30px;
+	height: 30px;
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	left: 50%;
+	bottom: 5px;
+	transform: translateX(-50%);
+}
+
+.tablet-btn-square {
+	width: 10px;
+	height: 10px;
+	background: #e7e7e7;
+	border: 2px solid #ffffff;
+	border-radius: 30%;
+}
